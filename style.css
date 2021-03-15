@@ -1,0 +1,68 @@
+  body
+{
+  background-image:url(https://cdn.pixabay.com/photo/2021/03/02/17/41/long-eared-owl-6063351_960_720.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+} 
+#id1{
+    color: yellow;
+    background-color: teal;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+#id2{
+   color: tomato;
+   background-color: turquoise;
+   font-size: 50px;
+   font-family: cursive;
+   text-transform: lowercase;
+}
+.Ast{
+    color: chocolate;
+    padding-left: 10px;
+    border:1px solid crimson;
+    margin: 10px 10px;
+}
+div p{
+    color:deeppink;
+}
+div>p{
+    color:green
+    
+}
+div+p{
+    color: fuchsia;
+}
+div~p{
+    color: green;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    background-color: bl;
+}
+li{
+    padding: 5px;
+    color:black;
+    background-color: blue;
+}
+.topnav{
+    background-color:coral
+    
+}
+topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px;
+    
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    padding: 5px;
+  }
+  
+  
